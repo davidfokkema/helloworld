@@ -2,6 +2,8 @@
 My first application
 """
 
+import sys
+
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
@@ -19,6 +21,7 @@ class HelloWorld(toga.App):
 
         self.main_window = toga.MainWindow(title=self.formal_name)
         self.main_window.content = main_box
+        main_box.add(toga.Label(str(sys.argv)))
         self.main_window.show()
 
 
