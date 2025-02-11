@@ -19,8 +19,9 @@ test_sources = ["tests"]
 requires = []
 test_requires = ["pytest"]
 
-template = "C:\\Users\\David\\Documents\\GitHub\\briefcase-windows-app-template"
-# template_branch = "file-associations"
+# template = "C:\\Users\\David\\Documents\\GitHub\\briefcase-windows-app-template"
+template = "https://github.com/davidfokkema/briefcase-windows-app-template"
+template_branch = "file-associations"
 
 [tool.briefcase.app.helloworld.document_type.project]
 description = "Hello Project File"
