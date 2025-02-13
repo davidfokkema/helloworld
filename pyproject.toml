@@ -26,13 +26,13 @@ template_branch = "file-associations"
 [tool.briefcase.app.helloworld.document_type.project]
 description = "Hello Project File"
 extension = "hpf"
-icon = "resources/document"
+icon = "src/helloworld/resources/document"
 url = "https://example.com"
 
 [tool.briefcase.app.helloworld.document_type.data]
 description = "Hello Data File"
 extension = "hda"
-icon = "resources/document-data"
+icon = "src/helloworld/resources/document-data"
 url = "https://example.com"
 
 [tool.briefcase.app.helloworld.macOS]
