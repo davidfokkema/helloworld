@@ -19,10 +19,6 @@ test_sources = ["tests"]
 requires = []
 test_requires = ["pytest"]
 
-# template = "C:\\Users\\David\\Documents\\GitHub\\briefcase-windows-app-template"
-template = "https://github.com/davidfokkema/briefcase-windows-app-template"
-template_branch = "file-associations"
-
 [tool.briefcase.app.helloworld.document_type.project]
 description = "Hello Project File"
 extension = "hpf"
@@ -153,6 +149,9 @@ flatpak_sdk = "org.gnome.Sdk"
 
 [tool.briefcase.app.helloworld.windows]
 requires = ["toga-winforms~=0.4.7"]
+# template = "C:\\Users\\David\\Documents\\GitHub\\briefcase-windows-app-template"
+template = "https://github.com/davidfokkema/briefcase-windows-app-template"
+template_branch = "file-associations"
 
 # Mobile deployments
 [tool.briefcase.app.helloworld.iOS]
