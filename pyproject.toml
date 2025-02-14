@@ -150,7 +150,7 @@ flatpak_sdk = "org.gnome.Sdk"
 [tool.briefcase.app.helloworld.windows]
 requires = ["toga-winforms~=0.4.7"]
 # template = "C:\\Users\\David\\Documents\\GitHub\\briefcase-windows-app-template"
-template = "https://github.com/davidfokkema/briefcase-windows-app-template"
+template = "https://github.com/davidfokkema/briefcase-windows-visualstudio-template"
 template_branch = "file-associations"
 
 # Mobile deployments
