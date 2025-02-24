@@ -45,9 +45,9 @@ url = "https://example.com"
 [tool.briefcase.app.helloworld.macOS]
 universal_build = true
 requires = ["toga-cocoa~=0.4.7", "std-nslog~=1.0.3"]
-template = "../briefcase-macOS-app-template/"
-# template = "https://github.com/davidfokkema/briefcase-macOS-app-template"
-# template_branch = "file-associations"
+# template = "../briefcase-macOS-app-template/"
+template = "https://github.com/davidfokkema/briefcase-macOS-app-template"
+template_branch = "file-associations"
 
 [tool.briefcase.app.helloworld.linux]
 requires = ["toga-gtk~=0.4.7"]
