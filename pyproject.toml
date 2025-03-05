@@ -30,15 +30,16 @@ url = "https://example.com"
 description = "Hello Data File"
 extension = "hda"
 macOS.CFBundleTypeRole = "Viewer"
+macOS.UTTypeConformsTo = ["public.database", "public.spreadsheet"]
 icon = "src/helloworld/resources/document-data"
 url = "https://example.com"
 
 [tool.briefcase.app.helloworld.document_type.text]
 description = "Regular text file"
 extension = "txt"
-macOS.LSItemContentTypes = ["public.text", "public.spreadsheet"]
-macOS.UTTypeConformsTo = ["public.database", "public.spreadsheet"]
+macOS.LSItemContentTypes = "public.text"
 macOS.LSHandlerRank = "Alternate"
+macOS.builtin_type = true
 icon = ""
 url = "https://example.com"
 
