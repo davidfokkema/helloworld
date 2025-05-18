@@ -32,6 +32,14 @@ extension = "ctxt"
 icon = ""
 url = "https://example.com"
 
+[tool.briefcase.app.helloworld.document_type.otherapptext]
+description = "OtherApp text file"
+extension = "oatxt"
+icon = ""
+url = "https://example.com"
+macOS.LSHandlerRank = "Alternate"
+macOS.CFBundleTypeRole = "Editor"
+
 [tool.briefcase.app.helloworld.document_type.textpackage]
 description = "Packaged text file"
 extension = "tpkg"
