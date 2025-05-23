@@ -31,6 +31,8 @@ description = "Custom text file"
 extension = "ctxt"
 icon = ""
 url = "https://example.com"
+macOS.LSItemContentTypes = ["public.plain-text"]
+mime_type = "application/x.example.customtext"
 
 [tool.briefcase.app.helloworld.document_type.otherapptext]
 description = "OtherApp text file"
