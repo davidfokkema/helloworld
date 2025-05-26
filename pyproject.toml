@@ -45,14 +45,14 @@ macOS.CFBundleTypeRole = "Editor"
 [tool.briefcase.app.helloworld.document_type.textpackage]
 description = "Packaged text file"
 extension = "tpkg"
-macOS.UTTypeConformsTo = ["apple.package", "public.content"]
+macOS.UTTypeConformsTo = ["com.apple.package", "public.content"]
 icon = ""
 url = "https://example.com"
 
 [tool.briefcase.app.helloworld.document_type.project]
 description = "Hello Project File"
 extension = "hpf"
-macos.UTTypeConformsTo = ["com.apple.package", "public.content"]
+macOS.UTTypeConformsTo = ["com.apple.package", "public.content"]
 icon = "src/helloworld/resources/document"
 url = "https://example.com"
 
@@ -68,8 +68,8 @@ url = "https://example.com"
 [tool.briefcase.app.helloworld.macOS]
 universal_build = true
 requires = ["toga-cocoa~=0.4.7", "std-nslog~=1.0.3"]
-template = "../briefcase-macOS-app-template/"
-# template = "https://github.com/davidfokkema/briefcase-macOS-app-template"
+# template = "../briefcase-macOS-app-template/"
+template = "https://github.com/davidfokkema/briefcase-macOS-app-template"
 template_branch = "file-associations"
 
 [tool.briefcase.app.helloworld.linux]
